@@ -29,8 +29,10 @@ body{
 }
 .nav-btn{
     margin-left: 850px;
+    cursor: pointer;
     
 }
+
 #signin{
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
@@ -80,7 +82,7 @@ body{
 .btn{
     border-radius: 8px;
     border: none;
-    background: rgb(0, 106, 80);
+    background: rgb(2, 126, 95);
     padding: 15px 30px 15px 30px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -89,8 +91,16 @@ body{
     letter-spacing: 0%;
     margin-top: 20px;
     cursor: pointer;
+
     
 }
+
+.btn:hover{
+    background: rgb(2, 58, 44);
+    color: rgb(255, 255, 255);
+    transition: .2s;
+}
+
 .caption{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -178,20 +188,34 @@ body{
     border-radius: 16px;
     background: rgb(198, 228, 214);
 }
-#vision .card-yellow{
-    
-
+#vision .card-yellow{  
 background: rgb(247, 235, 207);
 }
 #vision .btn {
-    background: rgb(84, 144, 245);
+    background: rgb(94, 145, 233);
+}
+#vision .btn:hover {
+    background: rgb(62, 115, 206);
+    color: rgb(255, 255, 255);
+    transition: .2s;
 }
 #vision  .btn-yellow{
-     background: rgb(255, 194, 57);
+     background: rgb(250, 192, 56);
 }
-  #vision  .btn-green{
-     background: rgb(9, 161, 92);
+#vision  .btn-yellow:hover{
+    background: rgb(221, 148, 2);
+    color: rgb(255, 255, 255);
+    transition: .2s;
+}
 
+  #vision  .btn-green{
+     background: rgb(9, 175, 101);
+
+}
+#vision  .btn-green:hover{
+    background: rgba(1, 102, 77, 0.863);
+    color: rgb(255, 255, 255);
+    transition: .2s;
 }
 #younus .quote{
     margin:-50px;
@@ -359,6 +383,11 @@ input{
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+}
+.form-body button:hover{
+    background: rgb(4, 59, 46);
+    color: rgb(255, 255, 255);
+    transition: .2s;
 }
 .footer-bd{
     color: rgb(14, 14, 14);
