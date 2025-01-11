@@ -88,6 +88,7 @@ body{
     font-weight: 500;
     letter-spacing: 0%;
     margin-top: 20px;
+    cursor: pointer;
     
 }
 .caption{
@@ -245,4 +246,66 @@ background: rgb(247, 235, 207);
 #news .publish-time{
     padding-left: 20px;
 }
+.donate-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+#donate-section{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
 
+.card-amount{
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 70px;
+}
+.card-amount.card-blue{
+    
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+.card-amount h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+#input-section .input-container{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+  
+}
