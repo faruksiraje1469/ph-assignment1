@@ -360,6 +360,15 @@ input{
     letter-spacing: 0%;
     text-align: left;
 }
+.footer-bd{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .footer-container{
     display: flex;
     justify-content:center;
