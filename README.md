@@ -3,7 +3,7 @@
 
 This repository hosts the solution for PH Assignment 1, showcasing a responsive and well-structured web project. It includes all the essential files, resources, and documentation required to set up and understand the project.
 
-## Demo
+## Live Demo
 
 View Live Project
 
