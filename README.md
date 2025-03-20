@@ -20,7 +20,6 @@ https://surl.li/qzgazt
 Clone the repository to your local machine
 
 ```bash
-  https://surl.li/qncpmj
 git clone https://github.com/faruksiraje1469/ph-assignment1.git
 ```
     
